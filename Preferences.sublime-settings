@@ -1,0 +1,34 @@
+{
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db",
+		"*.sublime-workspace",
+		"*.nss"
+	],
+	"font_size": 11,
+	"highlight_modified_tabs": true,
+	"indent_guide_options":
+	[
+		"draw_active"
+	],
+	"show_tab_close_buttons": false,
+	"tab_completion": false
+}

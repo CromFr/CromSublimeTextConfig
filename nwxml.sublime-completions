@@ -1,0 +1,22 @@
+{
+    "scope": "source.xml",
+
+    "completions":
+    [
+        { 
+		"trigger": "<UIPane>", 
+		"contents": "<UIPane x=${1:<!--X-->} y=${2:<!--Y-->} width=${3:<!--Width-->} height=${4:<!--Height-->} ${5:<!--Additionnal-->}>\n\t${0:<!--Content-->}\n</UIPane>",
+        "description": "Simple panel"
+    	},
+        { 
+        "trigger": "<UIButton>", 
+        "contents": "<UIButton x=${1:<!--X-->} y=${2:<!--Y-->} width=${3:<!--Width-->} height=${4:<!--Height-->} ${6:(Additionnal)}\n${5:OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_script","vars")}/>",
+        "description": "Simple button"
+        },
+        { 
+        "trigger": "<UIButton>.Framed", 
+        "contents": "<UIButton x=${1:ALIGN_CENTER} y=${2:ALIGN_CENTER} width=${3:PARENT_WIDTH} height=${4:PARENT_HEIGHT} ${6:(Additionnal)}\n${5:Events}>\n\t\t<UIFrame state=up       fill=\"${7:b_lgr}_normal.tga\"/>\n\t\t<UIFrame state=down     fill=\"${7:b_lgr}_pressed.tga\"/>\n\t\t<UIFrame state=focused  fill=\"${7:b_lgr}_normal.tga\"/>\n\t\t<UIFrame state=hilited  fill=\"${7:b_lgr}_hover.tga\"/>\n\t\t<UIFrame state=hifocus  fill=\"${7:b_lgr}_hover.tga\"/>\n\t\t<UIFrame state=disabled fill=\"${7:b_lgr}_normal.tga\"/>",
+        "description": "Custom framed button"
+        }
+    ]
+}

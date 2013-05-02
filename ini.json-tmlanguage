@@ -1,0 +1,28 @@
+{ 
+	"name": "INI Configuration Files",
+	"scopeName": "source.ini",
+	"fileTypes": ["ini", "INI"],
+	"patterns": [ {
+		"comment": "Section Header",
+		"match": "\\[(.*)\\]",
+		"captures": {
+		    "0": { "name": "keyword.ini" },
+		    "1": { "name": "entity.name.function.ini" },
+		    "2": { "name": "keyword.ini" }
+			}
+		}, {
+		"comment": "Variable",
+		"match": "^(?=[^;^#])([\\s]*)(.*)(=)(.*)$",
+		"captures": {
+		    "2": { "name": "constant.character.ini" },
+		    "3": { "name": "keyword.ini" },
+		    "4": { "name": "string.ini" }
+			}
+		}, {
+		"comment": "comments",
+		"match": "[^;^#](.*)$",
+		"name": "comment.line.ini"
+		}
+	],
+	"uuid": "b45df4a0-f2ef-4e32-8c7d-8d90eff64d60"
+}
