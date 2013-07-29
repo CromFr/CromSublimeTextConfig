@@ -3,6 +3,10 @@
 	"scopeName": "source.ini",
 	"fileTypes": ["ini", "INI"],
 	"patterns": [ {
+		"comment": "comments",
+		"match": "[;#](.*)$",
+		"name": "comment.line.ini"
+		}, {
 		"comment": "Section Header",
 		"match": "\\[(.*)\\]",
 		"captures": {
@@ -18,10 +22,6 @@
 		    "3": { "name": "keyword.ini" },
 		    "4": { "name": "string.ini" }
 			}
-		}, {
-		"comment": "comments",
-		"match": "[^;^#](.*)$",
-		"name": "comment.line.ini"
 		}
 	],
 	"uuid": "b45df4a0-f2ef-4e32-8c7d-8d90eff64d60"
