@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>fileTypes</key>
@@ -7,12 +7,12 @@
 		<string>nss</string>
 	</array>
 	<key>name</key>
-	<string>Neverwinter Script (nss)</string>
+	<string>Neverwinter Script</string>
 	<key>patterns</key>
 	<array>
 		<dict>
 			<key>include</key>
-			<string>#preprocessor-rule-enabled</string> 
+			<string>#preprocessor-rule-enabled</string>
 		</dict>
 		<dict>
 			<key>include</key>
@@ -34,7 +34,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(int|string|float|action|void|itemproperty|vector|location)\b</string>
+			<string>\b(int|string|float|action|void|itemproperty|vector|location|object)\b</string>
 			<key>name</key>
 			<string>storage.type.nss</string>
 		</dict>
@@ -46,7 +46,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(TRUE|FALSE|OBJECT_INVALID)\b</string>
+			<string>\b(TRUE|FALSE|OBJECT_INVALID|OBJECT_SELF)\b</string>
 			<key>name</key>
 			<string>constant.language.nss</string>
 		</dict>

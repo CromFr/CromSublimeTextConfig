@@ -21,7 +21,7 @@
       "name": "keyword.control.nss"
     },
     { 
-      "match": "\\b(int|string|float|action|void|itemproperty|vector|location)\\b",
+      "match": "\\b(int|string|float|action|void|itemproperty|vector|location|object)\\b",
       "name": "storage.type.nss"
     },
     { 
@@ -29,7 +29,7 @@
       "name": "storage.modifier.nss"
     },
     { 
-      "match": "\\b(TRUE|FALSE|OBJECT_INVALID)\\b",
+      "match": "\\b(TRUE|FALSE|OBJECT_INVALID|OBJECT_SELF)\\b",
       "name": "constant.language.nss"
     },
     { 
