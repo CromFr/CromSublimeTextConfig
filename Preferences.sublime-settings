@@ -21,10 +21,33 @@
 		"*.psd",
 		"*.db",
 		"*.sublime-workspace",
-		"*.nss"
+		"*.uti",
+		"*.utc",
+		"*.ute",
+		"*.ncs",
+		"*.utp",
+		"*.utt",
+		"*.gic",
+		"*.trn",
+		"*.trx",
+		"*.are",
+		"*.dlg",
+		"*.upe",
+		"*.gff",
+		"*.ult",
+		"*.utw",
+		"*.jrl",
+		"*.utm",
+		"*.utd",
+		"*.fac",
+		"*.dat"
 	],
 	"font_size": 11,
 	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
 	"indent_guide_options":
 	[
 		"draw_active"
